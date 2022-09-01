@@ -1,0 +1,68 @@
+@charset "UTF-8";
+#producto {
+  width: 100%;
+  padding: 1em;
+  background: url("../multimedia/food/diseño.jpg");
+}
+#producto .-info {
+  width: 100%;
+  padding-top: 4em;
+  margin-bottom: 2em;
+  text-align: center;
+}
+#producto .-info h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.2em;
+}
+#producto .-info p {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+#producto h2 {
+  margin-bottom: 1em;
+  text-align: center;
+  font-size: 2rem;
+  color: #ff8a04;
+}
+#producto .foods {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+}
+#producto .foods__img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3em;
+  background: #fff;
+  box-shadow: 0px 8px 24px 5px rgba(0, 0, 0, 0.45);
+}
+#producto .foods__img img {
+  width: 50%;
+}
+#producto .foods__img .foods__info {
+  width: 50%;
+}
+#producto .foods__img .foods__info p {
+  margin-bottom: 0.5em;
+  padding: 0 0.1em;
+  font-size: 0.96rem;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.1em;
+}
+#producto .foods__img .foods__info .price {
+  margin: none;
+  padding: none;
+  font-weight: 700;
+  color: #f09c5d;
+}
+#producto .specials-container .special {
+  margin-top: -1.5em;
+  margin-bottom: 3em;
+  text-align: center;
+  font-weight: 500;
+  font-size: 0.88rem;
+}/*# sourceMappingURL=producto.css.map */

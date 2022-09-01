@@ -1,0 +1,35 @@
+.error {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+}
+.error__interaction {
+  margin: 1.5em 0 3em;
+}
+.error__interaction h2 {
+  font-size: 1.7rem;
+}
+.error__interaction h1 {
+  font-size: 3.5rem;
+  color: #f09c5d;
+  border-bottom: 2px solid #ff8a04;
+}
+.error__interaction p {
+  padding-top: 1em;
+  margin-bottom: 1em;
+  font-size: 1.2rem;
+}
+.error__interaction a {
+  padding: 0.7em 1em;
+  font-weight: 700;
+  border-radius: 1em;
+  background: #ff8a04;
+  color: #000;
+}
+.error img {
+  width: 50%;
+}/*# sourceMappingURL=error.css.map */

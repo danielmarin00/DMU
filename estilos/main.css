@@ -1,0 +1,102 @@
+/*PALETA DE COLORES
+gris claro: EEEEEE
+gris: DDDDDD
+naranjado: FF8C32
+azul oscuro: 06113C*/
+main {
+  width: 100%;
+  background: #f1f1f1;
+}
+main .local {
+  padding-top: 5em;
+  background: url(../multimedia/food/inicio.jpg) no-repeat center rgb(82, 82, 82);
+  background-blend-mode: multiply;
+  background-attachment: scroll;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+main .local__info {
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+}
+main .local__info h1 {
+  display: flex;
+  flex-flow: column;
+  margin-bottom: 0.4em;
+  font-size: 2.5rem;
+  line-height: 1em;
+  color: #ff8a04;
+}
+main .local__info p {
+  font-weight: 600;
+  color: #f1f1f1;
+}
+main .local__wpp {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 3em;
+}
+main .local__wpp a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.7em 1em;
+  margin: 0.25em;
+  text-decoration: none;
+  background-color: #f09c5d;
+  color: #f1f1f1;
+  border-radius: 1em;
+}
+main .local__wpp a img {
+  width: 2.5em;
+  height: 2.5em;
+  margin: 0.25em;
+}
+main .complemento {
+  padding: 1em;
+}
+main .complemento__info {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+main .complemento__info h2 {
+  margin-bottom: 0.3em;
+  font-size: 2rem;
+}
+main .complemento__info p {
+  margin-bottom: 2em;
+  font-size: 0.7619047619rem;
+  font-weight: 500;
+  text-align: center;
+}
+main .complemento__info p span {
+  font-weight: bold;
+  color: #f09c5d;
+}
+main .complemento__img .img {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto;
+  width: 100%;
+  margin-bottom: 3em;
+  box-shadow: 0px 8px 24px 5px rgba(0, 0, 0, 0.45);
+}
+main .complemento__img .img img {
+  width: 100%;
+}
+main .complemento__img .img p {
+  display: flex;
+  flex-flow: column;
+  padding: 1em 0;
+  text-align: center;
+  font-weight: 500;
+  font-size: 0.96rem;
+  color: #000;
+}/*# sourceMappingURL=main.css.map */

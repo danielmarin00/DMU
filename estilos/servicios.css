@@ -1,0 +1,95 @@
+#servicios {
+  width: 100%;
+  padding: 1em;
+}
+#servicios .title-container {
+  width: 100%;
+}
+#servicios .soon {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding-top: 4em;
+  margin-bottom: 3em;
+}
+#servicios .soon h1 {
+  margin-bottom: 1em;
+  text-align: center;
+  font-size: 2rem;
+}
+#servicios .soon img {
+  width: 80%;
+  border-radius: 1em;
+}
+#servicios .now {
+  width: 100%;
+}
+#servicios .now p {
+  text-align: center;
+  font-size: 1.28rem;
+  color: #111111;
+}
+#servicios .now__phones a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.7em 1em;
+  text-decoration: none;
+  background-color: #f09c5d;
+  color: #f1f1f1;
+  border-radius: 1em;
+  font-size: 0.8rem;
+}
+#servicios .now__phones a img {
+  width: 2.5em;
+  height: 2.5em;
+}
+#servicios .now__phones p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.7em 1em;
+  margin: 1em 0;
+  font-size: 0.8rem;
+  font-weight: 600;
+  background-color: #ff8a04;
+  color: #000;
+  border-radius: 1em;
+}
+#servicios .now__phones p img {
+  width: 2.2em;
+  height: 2.2em;
+}
+#servicios .business-hours {
+  width: 100%;
+  margin: 2em 0;
+  padding: 0.5em;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 1em;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+#servicios .business-hours__title {
+  width: 90%;
+  display: flex;
+  place-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+#servicios .business-hours__title img {
+  width: 2em;
+  height: 2em;
+}
+#servicios .business-hours__title h2 {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+#servicios .business-hours p {
+  margin: 1em 0;
+  text-align: center;
+}
+#servicios .business-hours p:last-of-type {
+  margin: 0;
+}/*# sourceMappingURL=servicios.css.map */
